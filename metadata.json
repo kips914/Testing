@@ -1,0 +1,6 @@
+{
+  "name": "OLI Mobile",
+  "description": "Next-generation native AI companion connecting to OLI PC Server with secure tunnel, real-time chat, OCR, servers, memory, and diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OLI Mobile</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Чат</string>
+    <string name="nav_servers">Серверы</string>
+    <string name="nav_memory">Память</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_connection">Подключение</string>
+    <string name="nav_console">Консоль</string>
+    <string name="nav_diagnostics">Диагностика</string>
+    <string name="nav_ocr">OCR</string>
+    <string name="nav_about">О приложении</string>
+
+    <!-- Splash -->
+    <string name="splash_title">OLI</string>
+    <string name="splash_initializing">Инициализация...</string>
+    <string name="splash_connecting">Подключение</string>
+    <string name="splash_loading_settings">Загрузка настроек</string>
+    <string name="splash_checking_server">Проверка сервера</string>
+
+    <!-- Chat -->
+    <string name="chat_online">В СЕТИ</string>
+    <string name="chat_offline">НЕ В СЕТИ</string>
+    <string name="chat_empty_title">OLI</string>
+    <string name="chat_empty_subtitle">Чем я могу помочь?</string>
+    <string name="chat_input_placeholder">Сообщение OLI...</string>
+    <string name="chat_quick_explain">Объясни</string>
+    <string name="chat_quick_code">Код</string>
+    <string name="chat_quick_analyze">Анализ</string>
+    <string name="chat_quick_ocr">OCR</string>
+    <string name="chat_action_copy">Копировать</string>
+    <string name="chat_action_share">Поделиться</string>
+    <string name="chat_action_stop">Стоп</string>
+    <string name="chat_action_send">Отправить</string>
+    <string name="chat_copied_to_clipboard">Скопировано в буфер</string>
+    <string name="chat_menu_camera">Камера</string>
+    <string name="chat_menu_gallery">Галерея</string>
+    <string name="chat_menu_file">Файл</string>
+    <string name="chat_menu_ocr">OCR Сканер</string>
+    <string name="chat_new_dialog">Новый чат</string>
+    <string name="chat_rename">Переименовать</string>
+    <string name="chat_delete">Удалить</string>
+    <string name="chat_history">История чатов</string>
+
+    <!-- Servers -->
+    <string name="servers_title">Серверы</string>
+    <string name="servers_my_servers">Мои серверы</string>
+    <string name="servers_other_servers">Другие серверы</string>
+    <string name="servers_mode_private">Приватный</string>
+    <string name="servers_mode_invite_only">По приглашению</string>
+    <string name="servers_mode_public">Публичный</string>
+    <string name="servers_connect">Подключиться</string>
+    <string name="servers_open_chat">Открыть чат</string>
+    <string name="server_name">Имя</string>
+    <string name="server_description">Описание</string>
+    <string name="server_status">Статус</string>
+    <string name="server_access">Доступ</string>
+    <string name="server_tunnel">Туннель</string>
+    <string name="server_engine">Движок</string>
+    <string name="server_model">Модель</string>
+    <string name="server_devices_count">Устройства</string>
+    <string name="server_start">Запустить сервер</string>
+    <string name="server_stop">Остановить сервер</string>
+    <string name="server_settings">Настройки сервера</string>
+    <string name="server_qr">QR</string>
+    <string name="server_invitations">Приглашения</string>
+    <string name="server_devices">Устройства</string>
+
+    <!-- Connection & Pairing -->
+    <string name="conn_title">Подключение к OLI</string>
+    <string name="conn_scan_qr">Сканировать QR</string>
+    <string name="conn_discover">Поиск серверов</string>
+    <string name="conn_enter_manual">Ввести адрес вручную</string>
+    <string name="conn_server_found">Сервер найден</string>
+    <string name="conn_enter_password">Введите пароль сервера</string>
+    <string name="conn_password">Пароль</string>
+    <string name="conn_pairing">Привязка устройства...</string>
+    <string name="conn_success">Успешно привязано!</string>
+    <string name="conn_manual_address_hint">например http://192.168.1.100:8080</string>
+
+    <!-- Tailscale -->
+    <string name="tailscale_open">Открыть Tailscale</string>
+    <string name="tailscale_scan_qr">Сканировать Tailscale QR</string>
+    <string name="tailscale_installed">Tailscale настроен</string>
+    <string name="tailscale_not_installed">Tailscale не найден</string>
+
+    <!-- Devices -->
+    <string name="devices_connected">Подключённые устройства</string>
+    <string name="devices_this_device">Это устройство</string>
+    <string name="devices_disconnect">Отключить</string>
+    <string name="devices_revoke">Отозвать</string>
+
+    <!-- Memory -->
+    <string name="memory_title">Память OLI</string>
+    <string name="memory_user_header">Пользователь</string>
+    <string name="memory_user_name">Имя</string>
+    <string name="memory_user_age">Возраст</string>
+    <string name="memory_user_language">Язык</string>
+    <string name="memory_interests">Интересы</string>
+    <string name="memory_projects">Проекты</string>
+    <string name="memory_preferences">Предпочтения</string>
+    <string name="memory_save">Сохранить изменения</string>
+    <string name="memory_saved">Память обновлена на сервере</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_conn">Подключение</string>
+    <string name="settings_server">Сервер</string>
+    <string name="settings_tunnel">Туннель</string>
+    <string name="settings_pairing">Сопряжение</string>
+    <string name="settings_section_ai">ИИ</string>
+    <string name="settings_quick">Быстрый режим</string>
+    <string name="settings_performance">Производительность</string>
+    <string name="settings_model">Модель</string>
+    <string name="settings_temperature">Температура</string>
+    <string name="settings_context">Контекстное окно</string>
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_section_advanced">Дополнительно</string>
+    <string name="settings_clear_cache">Очистить кэш</string>
+    <string name="settings_reset_connection">Сбросить подключение</string>
+
+    <!-- Console & Diagnostics -->
+    <string name="console_title">Консоль OLI</string>
+    <string name="console_gateway">Шлюз</string>
+    <string name="console_engine">Движок</string>
+    <string name="console_model">Модель</string>
+    <string name="console_connection">Связь</string>
+    <string name="console_gpu">GPU</string>
+    <string name="console_ram">RAM</string>
+    <string name="console_refresh">Обновить</string>
+    <string name="console_restart_engine">Перезапустить движок</string>
+    <string name="diag_title">Диагностика</string>
+    <string name="diag_server_reachable">Сервер доступен</string>
+    <string name="diag_api">API</string>
+    <string name="diag_auth">Аутентификация</string>
+    <string name="diag_tunnel">Туннель</string>
+    <string name="diag_engine">Движок</string>
+    <string name="diag_model">Модель</string>
+
+    <!-- OCR -->
+    <string name="ocr_title">Распознавание текста (OCR)</string>
+    <string name="ocr_rotation">Поворот</string>
+    <string name="ocr_recognize">Распознать</string>
+    <string name="ocr_result">Результат</string>
+    <string name="ocr_send_to_oli">Отправить в OLI</string>
+    <string name="ocr_no_image">Выберите изображение из галереи или сделайте фото</string>
+    <string name="ocr_take_photo">Сделать фото</string>
+    <string name="ocr_choose_gallery">Выбрать из галереи</string>
+
+    <!-- Common & Errors -->
+    <string name="err_unable_to_connect">Не удалось подключиться к OLI.</string>
+    <string name="err_possible_causes">Возможные причины:\n• OLI выключен\n• Tailscale отключён\n• Неверный адрес сервера</string>
+    <string name="engine_offline">Движок не запущен</string>
+    <string name="engine_start">Запустить OLI</string>
+    <string name="general_retry">Повторить</string>
+    <string name="general_cancel">Отмена</string>
+    <string name="general_confirm">Подтвердить</string>
+    <string name="general_save">Сохранить</string>
+</resources>

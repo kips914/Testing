@@ -1,0 +1,1 @@
+sed -i 's/class OliAppContainer(context: Context) {/class OliAppContainer(context: Context) {\n    val sessionLogger: SessionLogger = SessionLogger()/' app/src/main/java/com/example/OliAppContainer.kt
